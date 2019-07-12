@@ -26,6 +26,44 @@ void setup() {
 void loop() {
   // THIS IS WHERE WE WILL PUT OUR CODE
 
+ 
+ switchColour("Blue");
+  switchColour("Yellow");
+  switchColour("Green");
+  switchColour("Red");
+  setRGBColour(random(0,255),random(0,255),random(0,255));
+
+  delay(1000);
+
+  switchColour("Blue");
+  switchColour("Yellow");
+  switchColour("Green");
+  switchColour("Red");
+  setRGBColour(random(0,255),random(0,255),random(0,255));
+
+ delay(1000);
+ switchColour("blue");
+ delay(1000);
+ 
+ delay(2000);
+  switchColour("Yellow");
+ 
+  delay(2000);
+  delay(3000);
+  switchColour("Green");
+  
+  delay(3000);
+
+  switchColour("Red");
+
+  delay(3000);
+
+
+
+
+ 
+
+
 }
 
 /**

@@ -1,0 +1,29 @@
+public class ProgrammingIntro {
+
+    public static void main(String[] args){
+        System.out.println("Hello World!");
+
+        int result =myFunction(5, 10);
+        system.out.println(results);
+
+         
+
+        // int thisIsAVariable= 6;
+        // double decimalNumber =6.61;
+        // boolean trueOrFalse = true;
+        // char aLetter= 'E';
+        // String someText = "Soccer is fun";
+
+        // System.out.println(thisIsAVariable);
+        // System.out.println(decimalNumber);
+        // System.out.println(trueOrFalse);
+        // System.out.println(aLetter);
+        // System.out.println(someText);
+    }
+public static  myFunction(int numberOne, int numberTwo){
+
+
+return numberOne * numberTwo;
+
+}
+}
